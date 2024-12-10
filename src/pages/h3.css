@@ -1,0 +1,10 @@
+h3 {
+    font-size: 1.4em; /* Slightly larger font for better visibility */
+    font-weight: bold; /* Make the titles stand out */
+    color: yellow; /* Purple color for distinction */
+    text-align: center; /* Center-align the title above the card */
+    margin-bottom: 10px; /* Add spacing between the title and the card */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for better contrast */
+    position: relative; /* Ensures proper alignment with the card */
+    left: -15px; /* Move slightly left for fine-tuning alignment */
+  }

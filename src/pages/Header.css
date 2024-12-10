@@ -1,0 +1,36 @@
+@keyframes jellyBounce {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.4, 0.6); /* Stretch horizontally */
+    }
+    50% {
+      transform: scale(0.7, 1.3); /* Stretch vertically */
+    }
+    75% {
+      transform: scale(1.10, 0.90); /* Slight squeeze */
+    }
+    100% {
+      transform: scale(1); /* Return to normal */
+    }
+  }
+  
+  .header {
+    display: inline-block;
+    font-size: 2.5rem; /* Adjust size as needed */
+    cursor: pointer;
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+  }
+  
+  .jelly-char {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out; /* Smooth reset */
+  }
+  
+  .jelly-char:hover {
+    animation: jellyBounce 0.6s ease-in-out;
+    color: white;
+  }

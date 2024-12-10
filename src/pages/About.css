@@ -1,0 +1,12 @@
+.card-container {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers cards horizontally */
+    align-items: flex-start; /* Aligns cards to the top */
+    gap: 20px; /* Adds spacing between cards */
+    margin-top: 20px; /* Optional: Adds some space above the cards */
+  }
+  
+  .card-container > * {
+    flex: 1; /* Optional: Makes all cards the same width */
+    max-width: 300px; /* Optional: Sets a maximum width for each card */
+  }

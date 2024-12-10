@@ -1,0 +1,14 @@
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure they span the entire viewport */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+.home {
+    display: flex;
+    flex-direction: column; /* For stacking elements vertically */
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Ensures text inside child elements is centered */
+  }

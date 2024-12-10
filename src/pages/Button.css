@@ -1,0 +1,6 @@
+.button-container { /* Use Flexbox to arrange buttons horizontally */
+    display: flex; /* Enables Flexbox layout */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Aligns the buttons vertically */
+    gap: 20px; /* Spacing between buttons */
+}
