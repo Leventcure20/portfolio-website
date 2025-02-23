@@ -1,18 +1,18 @@
 import harmonyICON from "../components/H.png";
-import bcfICON from "../components/brightChoice.jpeg";
+import dsaICON from "../components/DSA.png";
 
 const Companies = [
     { 
         companyName: "Harmony School of Innovation",
-        title: "Systems Engineering Intern",
-        description: "•Developed scripts to improve efficiency and recieve faster device response times •Provided technical support for 100+ faculty members, contributing to a 25% reduction in technical downtime",
+        title: "IT/Math-intern",
+        description: "• Tutored 50+ students in algebraic concepts, achieving 25% improvement, as reflected in test scores and overall grades• Supported IT infrastructure by collaborating with staff to optimize, demonstrating teamwork and problem-solving skills",
         src: harmonyICON,
     },
     {
-        companyName: "BrightChoice Foundation",
-        title: "Software Engineering Intern",
-        description: "•Leveraged Node.js and Express.js to build API endpoints, speeding up data handling between client and server-side for up to 100+ users • Integrated third-party authentication to speed up login times by 30%",
-        src: bcfICON,
+        companyName: "Dialogue Student Association",
+        title: "Marketing Officer/Frontend Developer",
+        description: "•Leveraged React.js as a frontend framework to showcase upcoming events and portray officers, increasing user traffic • Tracked participation of 100+ students across multiple events using Excel sheets for efficient data management",
+        src: dsaICON,
     }
 ]
 
